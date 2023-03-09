@@ -1,2 +1,2 @@
-# minimo-2
-try minimo 2
+live,
+https://nirmolchandro.github.io/minimo-2/
