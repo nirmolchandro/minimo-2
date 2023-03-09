@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+/*  */
+.nave{
+    padding: 30px 0px;
+    
+    
+}
+.displa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 150px;
+}
+.logo img{
+    width: 100%;
+}
+.manu{
+    align-items: center;
+}
+.manu ul {
+    list-style: none;
+}
+.manu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+.manu ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    text-transform: capitalize;
+    line-height: 30px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px 15px;
+}
+.manu ul li a:hover{
+    background-color: #ddd;
+}
+
+/* banner-img code starte */
+.banner-img{
+    width: 1080px;
+}
+.banner-img img{
+    width: 100%;
+}
+/* banner-img code end */
+.main{
+    margin: 0px 70px;
+    
+}
+
+.profect{
+    padding: 40px 0px;
+}
+.profect .potodiry{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: black;
+    padding: 20px 0px;
+    
+}
+.profect h1{
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    line-height: 70px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.lorem-p{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: black;
+
+}
+.main-galari{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.galare{
+    width: 435px;
+}
+.galare img{
+    width: 100%;
+}
+.galare .galare-p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding: 5px 0px;
+    color: black;
+    
+}
+.galare h2{
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: black;
+    padding: 10px 0px;
+    margin-top: -10px;
+    
+}
+.galare p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: black;
+}
+.sine{
+    width: 100%;
+    padding: 60px;
+    background-color: #ddd;
+    
+}
+.sine-1{
+    width: 430px;
+    border-bottom: 3px solid #000;
+    margin: 0 auto;
+}
+.sine-1 h3{
+    font-size: 35px;
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+    
+}
+.email{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000;
+}
+.btn{
+    text-align: center;
+    padding: 60px 0px;
+}
+button{
+    font-size: 26px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 30px;
+    text-transform: capitalize;
+    padding: 15px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #474646;
+}
+footer{
+    background-color: #ddd;
+    padding: 30px 0px;
+}
+.footer-p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-left: 70px;
+}
+.footer-p span{
+    font-size: 16px;
+    color: #474646;
+}
+.footer{
+    display: flex;
+    margin-left: 16px;
+}
+.footer a{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #000;
+    margin-left: 20px;
+}
+.footer a:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
